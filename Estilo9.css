@@ -1,0 +1,76 @@
+
+body{
+        background-image: url('IMAGENES/IMG7.jpg');
+        font-family: arial;
+        color: white; 
+        background-size: cover;
+        text-align: center;
+        margin-top: 1cm;
+        justify-content: center;
+        
+}
+.Header {
+    color: white;
+    text-align: center;
+    padding: 10px 20px; 
+    background-color: black;
+    margin-top: 1cm;
+    border-radius: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white; 
+    box-shadow: 0 0 1cm rgba(249, 249, 249, 0.966);
+}
+
+.formulario {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dfd5d5d4;
+    border-radius: 8px;
+    color: black;
+    
+}
+
+
+.formulario {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dfd5d5d4;
+    border-radius: 8px;
+    color: black;
+}
+
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+    color: black; 
+}
+
+
+.formulario button[type="submit"] {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: gray;
+    color: rgba(0, 0, 0, 0.902);
+    cursor: pointer;
+}
+
+.formulario button[type="submit"]:hover {
+    background-color: #c1bfb1cb;
+}
+
+.centrado {
+    text-align: center;
+}
